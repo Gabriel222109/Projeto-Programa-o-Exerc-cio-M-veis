@@ -1,14 +1,16 @@
-import Controle_quantidade from "@/components/Controle_quantidade";
-import ExemploCondicional from "@/components/ExemploCondicional";
-import ExemploExercicio3 from "@/components/ExemploExercicio3";
-import Exercicio1 from "@/components/Exercicio1";
-import Exercicio2 from "@/components/Exercicio2";
-import Exercicio3 from "@/components/Exercicio3";
-import Exercicio4Aluno from "@/components/Exercicio4Aluno";
-import Exercicio4Ocultar from "@/components/Exercicio4Ocultar";
-import Exercicio4ProdutoDemo from "@/components/Exercicio4ProdutoDemo";
-import Exercicio4ValidacaoEmail from "@/components/Exercico4ValidacaoEmail";
-import Produto_quantidade from "@/components/Produto_quantidade";
+import Atividade1A from "@/components/Atividade1A";
+import atividade1B from "@/components/Atividade1B";
+//import Controle_quantidade from "@/components/Controle_quantidade";
+//import ExemploCondicional from "@/components/ExemploCondicional";
+//import ExemploExercicio3 from "@/components/ExemploExercicio3";
+//import Exercicio1 from "@/components/Exercicio1";
+//import Exercicio2 from "@/components/Exercicio2";
+//import Exercicio3 from "@/components/Exercicio3";
+//import Exercicio4Aluno from "@/components/Exercicio4Aluno";
+//import Exercicio4Ocultar from "@/components/Exercicio4Ocultar";
+//import Exercicio4ProdutoDemo from "@/components/Exercicio4ProdutoDemo";
+//import Exercicio4ValidacaoEmail from "@/components/Exercico4ValidacaoEmail";
+//import Produto_quantidade from "@/components/Produto_quantidade";
 import { useState } from "react";
 import {
   Keyboard,
@@ -22,17 +24,19 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 // Cada exemplo tem export default e pode ser importado/instanciado isoladamente.
 const EXERCICIOS = [
-  { nome: "Exercício 1", Componente: Exercicio1 },
-  { nome: "Exercício 2", Componente: Exercicio2 },
-  { nome: "Controle", Componente: Controle_quantidade },
-  { nome: "Produto", Componente: Produto_quantidade },
-  { nome: "Exemplo Condicional", Componente: ExemploCondicional },
-  { nome: "Exercício 3", Componente: Exercicio3 },
-  { nome: "Exemplo de exercicio 3", Componente: ExemploExercicio3 },
-  { nome: "Exercicio  4 Aluno", Componente: Exercicio4Aluno },
-  { nome: "Exercicio 4 Ocultar", Componente: Exercicio4Ocultar },
-  { nome: "Exercicio 4 Validacao Email", Componente: Exercicio4ValidacaoEmail },
-  { nome: "Exercicio 4 Produto", Componente: Exercicio4ProdutoDemo },
+  //{ nome: "Exercício 1", Componente: Exercicio1 },
+  //{ nome: "Exercício 2", Componente: Exercicio2 },
+  //{ nome: "Controle", Componente: Controle_quantidade },
+  //{ nome: "Produto", Componente: Produto_quantidade },
+  //{ nome: "Exemplo Condicional", Componente: ExemploCondicional },
+  //{ nome: "Exercício 3", Componente: Exercicio3 },
+  //{ nome: "Exemplo de exercicio 3", Componente: ExemploExercicio3 },
+  //{ nome: "Exercicio  4 Aluno", Componente: Exercicio4Aluno },
+  //{ nome: "Exercicio 4 Ocultar", Componente: Exercicio4Ocultar },
+  //{ nome: "Exercicio 4 Validacao Email", Componente: Exercicio4ValidacaoEmail },
+  //{ nome: "Exercicio 4 Produto", Componente: Exercicio4ProdutoDemo },
+  { nome: "Atividade 1A", Componente: Atividade1A },
+  { nome: "Atividade 1B", Componente: atividade1B },
 ];
 
 export default function Exercicios() {
